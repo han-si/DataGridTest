@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2bdf940ec53d4307bd9f3c190ca135e7" Name="Diagramm1">
+        <EntityTypeShape EntityType="DataGridTestModel.Abteilungen" Width="1.5" PointX="5.25" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Betriebssysteme" Width="1.5" PointX="5.25" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Fahrzeuge" Width="1.5" PointX="7.5" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Firmen" Width="1.5" PointX="3" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Geraete" Width="1.5" PointX="7.5" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Geraetehersteller" Width="1.5" PointX="5.25" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Geraetemodelle" Width="1.5" PointX="5.25" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Geraetetypen" Width="1.5" PointX="5.25" PointY="26" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Netze" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Nutzer" Width="1.5" PointX="7.5" PointY="26.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Provider" Width="1.5" PointX="0.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Simgroessen" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Simkarten" Width="1.5" PointX="7.5" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Simnutzung" Width="1.5" PointX="9.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Tarife" Width="1.5" PointX="0.75" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Tarifoptionen" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Telefonnummern" Width="1.5" PointX="5.25" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Verbrauch" Width="1.5" PointX="7.5" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Verkaeufer" Width="1.5" PointX="0.75" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Vertraege" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DataGridTestModel.Vertragsarten" Width="1.5" PointX="0.75" PointY="23.125" IsExpanded="true" />
+        <AssociationConnector Association="DataGridTestModel.FK_Abteilungen_Firmen" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Fahrzeuge_Abteilungen" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Nutzer_Abteilungen" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Geraete_Betriebssysteme" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Simnutzung_Fahrzeuge" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Geraete_Geraetehersteller" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Geraete_Geraetemodelle" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Geraete_Geraetetypen" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Geraete_Simgroessen" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Simnutzung_Geraete" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Telefonnummern_Netze" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Simnutzung_Nutzer" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Vertraege_Provider" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Simkarten_Simgroessen" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Simkarten_Telefonnummern" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Simnutzung_Simkarten" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Vertraege_Tarife" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Vertraege_Tarifoptionen1" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Vertraege_Tarifoptionen2" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Vertraege_Tarifoptionen3" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Telefonnummern_Vertraege" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Verbrauch_Telefonnummern" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Vertraege_Verkaeufer" ManuallyRouted="false" />
+        <AssociationConnector Association="DataGridTestModel.FK_Vertraege_Vertragsarten" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
