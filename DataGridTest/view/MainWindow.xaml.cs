@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using DataGridTest.viewmodel;
 
 namespace DataGridTest.view
 {
@@ -10,6 +11,7 @@ namespace DataGridTest.view
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new MainViewModel();
         }
     }
 }
